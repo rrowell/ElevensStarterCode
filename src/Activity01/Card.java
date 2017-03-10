@@ -93,9 +93,11 @@ public class Card {
 	 *
 	 * @return a <code>String</code> containing the rank, suit,
 	 *         and point value of the card.
-	 */
-	@Override
-	public String toString() {
+          
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+              public string toString(){
+return  System.out.println("The card has a rank of "+ rank + "a suit of " + suit + "and a point value of " + pointValue);
+                
 	}
+              
 }
